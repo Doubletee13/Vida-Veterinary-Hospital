@@ -1,0 +1,545 @@
+body {
+  background-color: rgb(242, 245, 247);
+}
+
+h1{
+  text-align: center;
+  font-size: large;
+  background-color: rgb(3, 3, 84);
+  color: white;
+  padding: 12px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  background-color: white;
+  padding-bottom: 20px;
+  height: 155px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+nav img{
+  border-radius: 200px;
+  float: left;
+}
+.number{
+  padding: 20px;
+  margin: 20px;
+  margin-left: 100px;
+  background-color:rgb(6, 6, 75);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border-color: rgb(2, 2, 65);
+}
+.number:hover{
+  border-color:rgb(39, 39, 240) ;
+  background-color: rgb(39, 39, 240);
+  transition: 0.4s;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
+  font-family:"Paytone One", sans-serif;
+  font-weight: bolder;
+  padding: 5px 7px;
+  margin-top:40px;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.main{
+  background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(images/Vet1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  margin-top: 175px;
+}
+ .main h2{
+  margin-top: 0px;
+  padding: 10px 0px;
+  padding-top: 250px;
+  padding-left:400px;
+  font-family: "Paytone One", sans-serif;
+  font-weight:900;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+}
+.header{
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+  margin: 100px;
+  font-size: 60px;
+  font-weight: 900;
+  color: navy;
+}
+.redcross{
+  width: 100px;
+  height: 150px;
+  padding: 90px;
+  line-height: 13px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.redcross img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.redcross h3{
+  line-height: 15px;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.redcross p{
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+.redcross:hover{
+  transform: scale(1.1);
+}
+.vaccine{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding: 90px;
+  line-height: 15px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.vaccine img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.vaccine h3{
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.vaccine p{
+  font-family: "Inconsolata", monospace;
+}
+.vaccine:hover{
+  transform: scale(1.1);
+}
+.nutrition{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding: 90px;
+  line-height: 12px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.nutrition img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.nutrition h3{
+  line-height: 15px;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.nutrition p{
+  font-family: "Inconsolata", monospace;
+}
+.nutrition:hover{
+  transform: scale(1.1);
+}
+.diagnosis{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding: 90px;
+  line-height: 14px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.diagnosis img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.diagnosis h3{
+  line-height: 15px;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.diagnosis p{
+  font-family: "Inconsolata", monospace;
+}
+.diagnosis:hover{
+  transform: scale(1.1);
+}
+.surgery{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding: 90px;
+  line-height: 15px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.surgery img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.surgery h3{
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.surgery p{
+  font-family: "Inconsolata", monospace;
+}
+.surgery:hover{
+  transform: scale(1.1);
+}
+.emergency{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  padding: 90px;
+  line-height: 15px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.emergency img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.emergency h3{
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.emergency p{
+  font-family: "Inconsolata", monospace;
+}
+.emergency:hover{
+  transform: scale(1.1);
+}
+.dental{
+  width: 100px;
+  height: 150px;
+  padding: 90px;
+  line-height: 13px;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.dental img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.dental h3{
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.dental p{
+  font-family:"Inconsolata", monospace;
+  text-align: center;
+}
+.dental:hover{
+  transform: scale(1.1);
+}
+.behave{
+  width: 100px;
+  height: 150px;
+  padding: 90px;
+  line-height: 13px;
+  text-align: center;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.behave img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.behave h3{
+  line-height: 14px;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.behave p{
+  font-family: "Inconsolata", monospace;
+}
+.behave:hover{
+  transform: scale(1.1);
+}
+.education{
+  width: 100px;
+  height: 170px;
+  padding: 95px;
+  line-height: 13px;
+  text-align: center;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.education img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.education h3{
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.education p{
+  margin-bottom: 200px;
+  font-family: "Inconsolata", monospace;
+}
+.education:hover{
+  transform: scale(1.1);
+}
+.wellness{
+  width: 100px;
+  height: 170px;
+  padding: 95px;
+  line-height: 12px;
+  text-align: center;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.wellness img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.wellness h3{
+  line-height: 15px;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(4, 4, 102);
+}
+.wellness p{
+  font-family: "Inconsolata", monospace;
+}
+.wellness:hover{
+  transform: scale(1.1);
+}
+.compassion{
+  width: 100px;
+  height: 170px;
+  padding: 95px;
+  line-height: 12.5px;
+  text-align: center;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.compassion img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.compassion h3{
+  font-family: "Paytone One", sans-serif;
+  line-height: 15px;
+  color: rgb(4, 4, 102);
+}
+.compassion p{
+  font-family: "Inconsolata", monospace;
+}
+.compassion:hover{
+  transform: scale(1.1);
+}
+.groom{
+  width: 100px;
+  height: 170px;
+  padding: 95px;
+  line-height: 12.5px;
+  text-align: center;
+  border: 1px solid rgb(239, 234, 234);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: all 1s;
+}
+.groom img{
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.groom h3{
+  font-family: "Paytone One", sans-serif;
+  line-height: 15px;
+  color: rgb(4, 4, 102);
+}
+.groom p{
+  font-family: "Inconsolata", monospace;
+}
+.groom:hover{
+  transform: scale(1.1);
+}
+.all{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer{
+  min-height: 400px;
+  background-color: rgb(38, 38, 38);
+}
+.address{
+  margin: 30px;
+}
+.address img{
+  margin-top: 30px;
+  border-radius: 150px;
+}
+.address .details {
+  margin-left: 20px;
+  color: whitesmoke;
+}
+.address address{
+  margin-left: 20px;
+  color: whitesmoke;
+}
+.fa-facebook {
+  text-align: center;
+  background-color:rgb(38, 38, 38);
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 100px;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+.fa-facebook:hover{
+  background-color: #3B5998;
+}
+.fa-twitter {
+  text-align: center;
+  background-color:rgb(38, 38, 38);
+  color: white;
+  padding: 10px;
+  border-radius: 100px;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+.fa-twitter:hover{
+  background-color: #55ACEE;
+}
+.vida{
+ display: flex;
+ align-items: center;
+ text-align: center;
+}
+.vida p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 10px;
+  margin-top: 50px;
+}
+.link{
+  margin: 30px;
+  margin-top: 100px;
+}
+.link h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-left: 45px;
+}
+.link ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+  list-style: none;
+}
+.link ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.link ul li a:hover{
+  color: rgb(24, 24, 185);
+}
+.gallery{
+  margin: 30px;
+  margin-top: 100px;
+}
+.gallery h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.gallery img{
+  border-radius: 10px;
+  margin: 2px;
+}
+.time{
+  margin: 30px;
+  margin-top: 100px;
+}
+.time h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.time button{
+  font-family: "Paytone One", sans-serif;
+  font-size: large;
+  color: whitesmoke;
+  padding: 40px;
+  width: 110%;
+  border-radius: 10px;
+  border-color: rgb(110, 104, 104);
+  background-color:rgb(110, 104, 104);
+}
+.time p{
+  color: whitesmoke;
+}
+hr{
+  width: 90%;
+  border: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.terms{
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+.foot{
+  display: flex;
+}
+
+  
